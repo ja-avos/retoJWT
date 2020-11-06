@@ -11,7 +11,7 @@ Desde el directorio del proyecto:
 4. Probar cada colección manualmente (no probar de forma automática).
 
 Nota: Se puede evidenciar en las colecciones que solo los usuarios con ciertos roles pueden ejecutar ciertas acciones. Las capacidades de los roles son las siguientes:
--> none: ["viewStores", "viewProducts"],
--> client: ["viewStores", "viewClient", "viewProducts", "viewCart", "buyProducts", "checkout", "editUser"],
--> owner: ["viewStores", "viewProducts", "addProduct", "deleteProduct", "editStore"],
--> admin: ["viewClients", "viewStores", "viewProducts", "addProduct", "editStores"]
+* none: ["viewStores", "viewProducts"],
+* client: ["viewStores", "viewClient", "viewProducts", "viewCart", "buyProducts", "checkout", "editUser"],
+* owner: ["viewStores", "viewProducts", "addProduct", "deleteProduct", "editStore"],
+* admin: ["viewClients", "viewStores", "viewProducts", "addProduct", "editStores"]
